@@ -1,2 +1,14 @@
 # go-s3
-A few binaries for s3 commands in go
+A s3 binary to do s3 things.
+
+
+Usage:
+```
+s3 put --bucket my-bucket --prefix my/prefix --file-name mylocalfile
+```
+
+Or
+
+```
+s3 get --bucket my-bucket --prefix my/prefix --file-name remotefilename
+```
